@@ -1,0 +1,10 @@
+body.rcc-community-test .rcc-external-test-badge {
+  border-color: var(--rcc-test-green-dark) !important;
+  background: #eaf2eb !important;
+}
+
+body.rcc-community-test .communities-preview {
+  outline: 4px solid var(--rcc-test-green) !important;
+  outline-offset: -4px !important;
+}
+
