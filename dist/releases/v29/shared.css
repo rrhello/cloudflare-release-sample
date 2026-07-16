@@ -1,0 +1,66 @@
+:root {
+  --rcc-sage: #5c8a61;
+  --rcc-sage-dark: #3f6644;
+  --rcc-sage-light: #eaf2eb;
+  --rcc-sage-mid: #c8dfcb;
+  --rcc-accent: #3a4a8a;
+  --rcc-accent-light: #eef2ff;
+  --rcc-charcoal: #2c2c2c;
+  --rcc-gray: #6b6b6b;
+  --rcc-light-gray: #f4f4f4;
+  --rcc-border: #e2e2e2;
+  --rcc-white: #ffffff;
+
+  --primary: var(--rcc-sage) !important;
+  --primaryLight: #7ba67f !important;
+  --primaryDark: var(--rcc-sage-dark) !important;
+  --tertiary: var(--rcc-sage) !important;
+  --surface: var(--rcc-light-gray) !important;
+  --background: var(--rcc-white) !important;
+  --fill: #f0f0f0 !important;
+  --fillLight: #f8f8f8 !important;
+  --border: var(--rcc-border) !important;
+  --fontPrimary: var(--rcc-charcoal) !important;
+  --fontSecondary: var(--rcc-gray) !important;
+}
+
+body.rcc-portal-home,
+body.rcc-community,
+body.rcc-portal-home button,
+body.rcc-community button,
+body.rcc-portal-home input,
+body.rcc-community input,
+body.rcc-portal-home textarea,
+body.rcc-community textarea {
+  font-family: Inter, "Inter var", "Segoe UI", system-ui, -apple-system,
+    BlinkMacSystemFont, Arial, sans-serif !important;
+  letter-spacing: 0 !important;
+}
+
+body.rcc-portal-home,
+body.rcc-community {
+  color: var(--rcc-charcoal) !important;
+}
+
+body.rcc-portal-home .text-clientportal-font-primary,
+body.rcc-community .text-clientportal-font-primary {
+  color: var(--rcc-charcoal) !important;
+}
+
+body.rcc-portal-home .text-clientportal-font-secondary,
+body.rcc-community .text-clientportal-font-secondary {
+  color: var(--rcc-gray) !important;
+}
+
+body.rcc-portal-home .n-button,
+body.rcc-portal-home .n-button__content,
+body.rcc-community .n-button,
+body.rcc-community .n-button__content {
+  font-family: inherit !important;
+}
+
+body.rcc-portal-home :focus-visible,
+body.rcc-community :focus-visible {
+  outline: 3px solid rgba(92, 138, 97, 0.38) !important;
+  outline-offset: 2px !important;
+}
