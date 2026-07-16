@@ -414,5 +414,5 @@ For the next page-specific Community customization:
 
 - `README.md` — release structure and loader overview
 - `DEVELOPMENT.md` — complete development, QA, promotion, and rollback workflow
-- `RELEASE-ACTIVITY-RUNBOOK.md` — reusable operational checklist
+- `../RELEASE-ACTIVITY-RUNBOOK.md` — reusable operational checklist
 - `ACTIVITY-2026-07-14-PRIVATE-GROUP-V5.md` — this completed activity record
