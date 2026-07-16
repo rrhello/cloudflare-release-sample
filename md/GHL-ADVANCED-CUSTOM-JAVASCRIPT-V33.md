@@ -8,7 +8,7 @@ guard.
   "use strict";
   var release = "v33";
   var releaseUrl =
-    "https://PREVIEW_HOST.rccportal.pages.dev/releases/v33/release.js";
+    "https://PREVIEW_HOST.rccportal.pages.dev/releases/v33/release.js?rcc=v33";
   var script;
 
   if (document.querySelector('script[data-rcc-release-loader="' + release + '"]')) return;

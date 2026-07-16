@@ -32,6 +32,9 @@ into unrelated controls.
 - Channel menu items are keyed to their semantic menu role and
   `aria-label="Switch to … channel"` so the same treatment applies regardless
   of the active group subpage.
+- The release loader appends `?rcc=v33` to child asset requests. This prevents a
+  temporary Pages fallback response from occupying an immutable asset URL
+  during preview propagation.
 
 ## QA
 

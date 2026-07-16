@@ -2,6 +2,7 @@
   "use strict";
 
   var RELEASE = "v33";
+  var ASSET_REVISION = "?rcc=" + RELEASE;
   var currentScript = document.currentScript;
   var base = currentScript && currentScript.src
     ? new URL("./", currentScript.src).href
@@ -134,7 +135,7 @@
 
     var link = document.createElement("link");
     link.rel = "stylesheet";
-    link.href = base + filename;
+    link.href = base + filename + ASSET_REVISION;
     link.dataset.rccAsset = key;
     link.onload = function () {
       trace("asset:css-loaded", { asset: key });
@@ -156,7 +157,7 @@
     }
 
     var script = document.createElement("script");
-    script.src = base + filename;
+    script.src = base + filename + ASSET_REVISION;
     script.async = false;
     script.dataset.rccAsset = key;
     script.onload = function () {
